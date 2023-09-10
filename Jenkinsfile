@@ -9,8 +9,8 @@ pipeline {
                 docker version
                 docker compose version 
                 java --version
-                docker-compose build
-                docker-compose up
+                sudo docker-compose build
+                sudo docker-compose up &
                 '''
             }
         }
