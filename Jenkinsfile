@@ -10,7 +10,8 @@ pipeline {
                 docker compose version 
                 java --version
                 docker-compose build
-                sh start.sh
+                sh start.sh &
+                exit
                 '''
             }
         }
