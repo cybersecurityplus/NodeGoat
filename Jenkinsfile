@@ -11,7 +11,6 @@ pipeline {
                 java --version
                 docker-compose build
                 sh start.sh &
-                exit
                 '''
             }
         }
