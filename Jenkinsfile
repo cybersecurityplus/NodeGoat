@@ -10,7 +10,9 @@ pipeline {
                 docker compose version 
                 java --version
                 docker-compose build
-                docker-compose up $
+                docker-compose up 
+                sleep 200
+                docker-compose down
                 '''
             }
         }
