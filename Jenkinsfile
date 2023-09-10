@@ -1,7 +1,7 @@
 pipeline { 
     agent any
     stages {
-        stages("verify tooling"){
+        stage("verify tooling"){
             steps {
                 sh '''
 
